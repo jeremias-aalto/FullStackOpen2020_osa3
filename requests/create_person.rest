@@ -1,4 +1,4 @@
-POST http://localhost:3001/api/persons
+POST https://hidden-shore-97745.herokuapp.com/api/persons
 Content-Type: application/json
 
 {

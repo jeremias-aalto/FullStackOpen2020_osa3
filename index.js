@@ -9,6 +9,7 @@ morgan.token('info', function(req, res) {
   }
 })
 
+app.use(express.static('build'))
 app.use(express.json())
 app.use(
   morgan(function (tokens, req, res) {
